@@ -13,7 +13,7 @@ namespace Tyuiu.PyanzinaMA.Sprint0.TaskReview.V0
         {
             int Num1 = 25;
             int Num2 = 16;
-            int Num3 = 8;
+            int Num3 = 9;
             int result = DataService.Calc(Num1, Num2, Num3);
 
             Console.WriteLine($"({Num1} + {Num2} + {Num3}) * 5 = {result}");
